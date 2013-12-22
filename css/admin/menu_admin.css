@@ -1,0 +1,66 @@
+/* CSS Document */
+
+ul.page_listing_menu{
+	list-style-type: none;
+	border: 1px solid #ccc;
+	margin: 5px 5px 0px 5px;
+	padding: 5px 5px 0px 5px;
+	font-size: 12px;
+}
+ul.page_listing_menu li{
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+ul.folder_listing_menu{
+	list-style-type: none;
+	margin: 5px 5px 5px 18px;
+	padding: 0px 0px 0px 0px;
+	font-size: 12px;
+}
+
+li.folder_menu{
+	font-weight: bold !important;
+	/*background: transparent url(/images/admin/icons/folder_16x16.png) no-repeat left top !important;*/
+	
+}
+li.folder_menu img.folder_img{
+	display:inline-block;
+	height: 16px;
+	width: 20px;
+	background: transparent url(/images/admin/icons/folder_16x16.png) no-repeat left top !important;
+}
+
+ul.folder_listing_menu li{
+	color: #000000;
+	font-weight: normal;
+	/*list-style-image: url(/images/admin/icons/folder_item_16x16.png);*/
+}
+ul.page_listing_menu li{
+
+}
+
+
+
+
+ul.page_listing_menu li a.menu_item, ul.page_listing_menu li a.menu_item:visited{
+	display: inline-block;
+	text-decoration: none;
+	padding: 2px 0px 2px 2px;
+}
+ul.page_listing_menu li a.menu_item:hover, ul.page_listing_menu li a.menu_item:active{
+}
+
+ul.page_listing_menu li a.menu_item_off, ul.page_listing_menu li a.menu_item_off:visited{
+	color: #4444FF;
+}
+ul.page_listing_menu li a.menu_item_off:hover, ul.page_listing_menu li a.menu_item_off:active{
+	background-color: #8888FF;
+	color: #ffffff;
+}
+
+
+ul.page_listing_menu li.folder_menu a.menu_item, ul.page_listing_menu li.folder_menu a.menu_item:visited{
+	display: inline-block;
+	
+}

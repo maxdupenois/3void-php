@@ -1,0 +1,39 @@
+<?php $actions = Action::actionListing();?>
+var actionMap = new Map();
+<?php foreach($actions as $a){?>
+actionMap.add("<?=$a->getName()?>", "<?=str_replace("\"", "\\\"", $a->getDescription())?>"); 
+<?php } ?>
+
+<?php $permissions = Authorisation::permissionListing();?>
+var permissionMap = new Map();
+<?php foreach($permissions as $p){?>
+permissionMap.add("<?=$p->permission?>", "<?=str_replace("\"", "\\\"", $p->description)?>");
+<?php } ?>
+
+window.onload = function(){
+	document.forms['create_action']['action']['onchange'] = function(){showActionDescription();};
+	document.forms['create_action']['permission_view']['onchange'] = function(){showPermissionDescription('view');};
+	document.forms['create_action']['permission_edit']['onchange'] = function(){showPermissionDescription('edit');};
+	document.forms['create_action']['permission_edit_content']['onchange'] = function(){showPermissionDescription('edit_content');};
+	document.forms['create_action']['permission_delete']['onchange'] = function(){showPermissionDescription('delete');};
+	
+	//Need to run methods so preselected items have the correct description
+	showActionDescription();
+	showPermissionDescription('view');
+	showPermissionDescription('edit');
+	showPermissionDescription('edit_content');
+	showPermissionDescription('delete');
+};
+function showPermissionDescription(type){
+	var selectElement 	=  document.forms['create_action']['permission_'+type];
+	var descriptionElement 	=  document.getElementById('permission_'+type+'_description');
+	var selected 		= FormUtils.getSelectedOptions(selectElement);
+	DOMUtils.setText(descriptionElement,permissionMap.get(selected[0].value));
+}
+
+function showActionDescription(){
+	var selectElement 	=  document.forms['create_action']['action'];
+	var descriptionElement 	=  document.getElementById('action_description');
+	var selected 		= FormUtils.getSelectedOptions(selectElement);
+	DOMUtils.setText(descriptionElement,actionMap.get(selected[0].value));
+}

@@ -1,0 +1,39 @@
+<ul id="pages" class="page_listing">
+			<?php $pageMappings = Page::pageListingByFolder();
+			
+			function listFolder($folder){
+				$html = "";
+				foreach($folder as $k=>$val){
+					if(is_array($val)){
+						$html .= "<li class=\"folder\"><img class=\"folder_img\"/>$k\n";
+						$html .= "<ul class=\"folder_listing\">\n";
+							$html .= listFolder($val);
+						$html .= "</ul></li>\n";
+					}else{
+						$html .= "<li>\n";
+						
+						$html .= "<a href=\"/".$val->getURI().".".$GLOBALS['PAGE_EXTENSION']."\" "
+							  ."title=\"View ".$val->getTitle()."\" class=\"view_page\" target=\"_blank\"> </a>\n";
+						if(Authorisation::isAuthorised($val->getPermissionEdit())){	  
+							$html .= "<a href=\"/admin/pages/edit-page.".$GLOBALS['PAGE_EXTENSION']."?page=".$val->getURI()."\" "
+								  ."title=\"Edit ".$val->getTitle()."\" class=\"edit_page\"> </a>\n";
+						}
+						if(Authorisation::isAuthorised($val->getPermissionEditContent())){	  
+							$html .= "<a href=\"/admin/pages/set-page-content.".$GLOBALS['PAGE_EXTENSION']."?page=".$val->getURI()."\" "
+								  ."title=\"Edit ".$val->getTitle()." Content\" class=\"edit_page_content\"> </a>\n";
+						}
+						if(Authorisation::isAuthorised($val->getPermissionDelete())){	  
+							$html .= "<a href=\"javascript:deletePage('".$val->getTitle()."', '".$val->getURI()."')\" "
+								  ."title=\"Delete ".$val->getTitle()."\" class=\"delete_page\"> </a>\n";
+						}
+							  
+						$html .= $val->getTitle()."\n";;
+						$html .= "</li>\n";
+					}
+				}
+				return $html;
+			}
+			echo listFolder($pageMappings);
+			?>
+			
+			</ul>

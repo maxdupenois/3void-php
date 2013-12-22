@@ -1,0 +1,39 @@
+input.text{
+	border: 1px solid #666;
+	color: #333;
+	font-size: 10pt;
+}
+fieldset{
+	border: 1px solid #aaa;
+}
+fieldset legend{
+	color:#990000;
+}
+label{
+}
+span.description{
+	color: #000099;
+}
+a.form_button, a.form_button:visited{
+	padding: 2px 5px 2px 5px;
+	color: #990000;
+	font-size: 10pt;
+	text-decoration:none;
+	border: 1px solid #990000;
+}
+
+a.form_button:hover, a.form_button:active{
+	color: #ff0000;
+	border: 1px solid #ff0000;
+	font-size: 10pt;
+}
+
+span.form_error{
+	color: #BB0000;
+	font-weight: bold;
+}
+
+span.success{
+	color: #00BB00;
+	font-weight: bold;
+}

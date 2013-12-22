@@ -1,0 +1,70 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php
+DirectoryIndex index.html.var index.htm index.html index.shtml index.xhtml index.wml index.perl index.pl index.plx index.ppl index.cgi index.jsp index.js index.jp index.php4 index.php3 index.php index.phtml default.htm default.html home.htm index.php5 Default.html Default.htm home.html
+ErrorDocument 401 /err/401.html
+ErrorDocument 403 /err/403.html
+ErrorDocument 404 /err/404.html
+ErrorDocument 500 /err/500.html
+
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymlinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine on
+
+
+RewriteCond %{http_host} ^.*dupenois.com$ [NC]
+RewriteRule ^(.*)$ http://3void.com [R=301,NC,L]
+
+
+RewriteCond %{http_host} !^3void.com$ [NC]
+RewriteCond %{http_host} !^www.3void.com$ [NC]
+RewriteRule ^(.*)$ $1 [NC,L]
+
+
+RewriteCond %{http_host} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,NC,L]
+
+<FilesMatch "\.htaccess$">
+Order deny,allow
+Deny from all
+Satisfy all
+</FilesMatch>
+
+
+
+RewriteCond %{request_uri} ^\/js\/.*$ [NC]
+RewriteRule ^(.*)$ $1 [NC,L]
+
+RewriteCond %{request_uri} ^\/codebase\/.*$ [NC]
+RewriteRule ^(.*)$ $1 [NC,L]
+
+RewriteCond %{HTTP:RedirectedToGenPage} !^true$ [NC]
+RewriteRule ^generate-page.php(.*)$ / [F,NC,L]
+
+RequestHeader set RedirectedToGenPage "true"
+
+#RewriteCond %{request_uri} !^.*generate-page\.php.*$ [NC,OR]
+RewriteCond %{request_uri} ^.*\.html$ [NC,OR]
+RewriteCond %{request_uri} ^/uploads/.*$ [NC,OR]
+RewriteCond %{request_uri} ^.*/$ [NC,OR]
+RewriteCond %{request_uri} ^\$ [NC]
+RewriteCond %{QUERY_STRING} ^(.*)$ [NC]
+RewriteRule ^(.*)$ /generate-page.php?uri=$1&%1 [NC,L]
+
+#RewriteCond %{request_uri} ^.*\.html$ [NC,OR]
+#RewriteCond %{request_uri} ^.*\.htm$ [NC,OR]
+#RewriteCond %{request_uri} ^\$ [NC,OR]
+#RewriteCond %{request_uri} !^(.*)\.[^/]*$ [NC]
+#RewriteCond %{QUERY_STRING} ^(.*)$ [NC]
+#RewriteRule ^(.*)$ /generate-page.php?uri=$1&%1 [NC,L]RewriteCond %{HTTP_HOST} ^ryuko-dojo.co.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.ryuko-dojo.co.uk$
+RewriteRule ^/?$ "http\:\/\/www\.ryuko\.co\.uk" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^ryukodojo.co.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.ryukodojo.co.uk$
+RewriteRule ^/?$ "http\:\/\/www\.ryuko\.co\.uk" [R=301,L]
+
+
+RewriteCond %{HTTP_HOST} ^alexsavage.co.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www.alexsavage.co.uk$
+RewriteRule ^/?$ "http\:\/\/alexsavage\.co\.uk" [R=301,L]

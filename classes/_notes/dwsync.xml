@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="action-instance-parameter-item.class.php" local="129051900301900000" remote="129051691200000000" testing="0" />
+<file name="action-instance.class.php" local="129051900302070000" remote="129051691200000000" testing="0" />
+<file name="action-parameter-key.class.php" local="129051900302220000" remote="129051691200000000" testing="0" />
+<file name="action.class.php" local="129051900302320000" remote="129051691200000000" testing="0" />
+<file name="authorisation.class.php" local="129051900302330000" remote="129051691200000000" testing="0" />
+<file name="class-loader.php" local="129051900302350000" remote="129051691200000000" testing="0" />
+<file name="database.class.php" local="129051900302440000" remote="129051691200000000" testing="0" />
+<file name="enum.class.php" local="129051900302520000" remote="129051691200000000" testing="0" />
+<file name="file-utils.class.php" local="129051900302710000" remote="129051691200000000" testing="0" />
+<file name="form-results.class.php" local="129051900302730000" remote="129051691200000000" testing="0" />
+<file name="mapping.class.php" local="129051900302860000" remote="129051691200000000" testing="0" />
+<file name="menu-item.class.php" local="129051900302880000" remote="129051691200000000" testing="0" />
+<file name="menu.class.php" local="129051900303070000" remote="129051691200000000" testing="0" />
+<file name="page-content-item.class.php" local="129051900303150000" remote="129051691200000000" testing="0" />
+<file name="page-content.class.php" local="129051900303160000" remote="129051691200000000" testing="0" />
+<file name="page.class.php" local="129051930791170000" remote="129051714600000000" testing="0" />
+<file name="shop-basket-item.class.php" local="129051900303470000" remote="129051691200000000" testing="0" />
+<file name="shop-basket.class.php" local="129051900303670000" remote="129051691200000000" testing="0" />
+<file name="shop-discount-promotion.class.php" local="129051900303690000" remote="129051691200000000" testing="0" />
+<file name="shop-discount.class.php" local="129051900303710000" remote="129051691200000000" testing="0" />
+<file name="shop-image.class.php" local="129051900303870000" remote="129051691200000000" testing="0" />
+<file name="shop-item.class.php" local="129051900303890000" remote="129051691200000000" testing="0" />
+<file name="shop-tag.class.php" local="129051900304040000" remote="129051691200000000" testing="0" />
+<file name="shop.class.php" local="129051900304180000" remote="129051691200000000" testing="0" />
+<file name="template-content-key.class.php" local="129051900304200000" remote="129051691200000000" testing="0" />
+<file name="template-key.class.php" local="129051900304220000" remote="129051691200000000" testing="0" />
+<file name="template.class.php" local="129051900304410000" remote="129051691200000000" testing="0" />
+<file name="user.class.php" local="129051900304580000" remote="129051691200000000" testing="0" />
+</dwsync>

@@ -1,0 +1,61 @@
+/* 
+    Document   : folder-listing.css
+    Created on : 16-Nov-2010, 11:23:44
+    Author     : Max
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ul.folder_listing{
+	list-style-type: none;
+	margin: 5px 5px 5px 18px;
+	padding: 0px 0px 0px 0px;
+	font-size: 12px;
+}
+
+li.folder{
+	color: #000099 !important;
+	font-weight: bold !important;
+	/*background: transparent url(/images/admin/icons/folder_16x16.png) no-repeat left top !important;*/
+
+}
+li.folder img.folder_img{
+	display:inline-block;
+	height: 16px;
+	width: 20px;
+	background: transparent url(/images/admin/icons/folder_16x16.png) no-repeat left top !important;
+}
+
+ul.folder_listing li{
+	color: #000000;
+	font-weight: normal;
+	/*list-style-image: url(/images/admin/icons/folder_item_16x16.png);*/
+}
+a.folder_expander_collapsed, a.folder_expander_collapsed:visited{
+	background: transparent url(/images/admin/icons/folder_expander_off_collapsed_16x16.png) no-repeat center center;
+	display:inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+a.folder_expander_collapsed:hover, a.folder_expander_collapsed:active{
+	background: transparent url(/images/admin/icons/folder_expander_on_collapsed_16x16.png) no-repeat center center;
+}
+
+a.folder_expander_expanded, a.folder_expander_expanded:visited{
+	background: transparent url(/images/admin/icons/folder_expander_off_expanded_16x16.png) no-repeat center center;
+	display:inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+a.folder_expander_expanded:hover, a.folder_expander_expanded:active{
+	background: transparent url(/images/admin/icons/folder_expander_on_expanded_16x16.png) no-repeat center center;
+}
+
+

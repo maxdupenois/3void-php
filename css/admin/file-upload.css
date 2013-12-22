@@ -1,0 +1,111 @@
+/*
+    Document   : file_upload_css
+    Created on : 08-Nov-2010, 12:04:42
+    Author     : mpd209
+    Description:
+        Styles jar upload section
+*/
+
+div#uploader{
+    text-align:center;
+}
+div.file_input_container{
+    display: inline;
+    padding-right:5px;
+    background-color: #fff;
+}
+form.file_uploader input.file_input{
+    border: 1px solid #ccc;
+    margin-right:5px;
+}
+
+input.file_input.uploading{
+    color: #444 !important;
+    background-color: #ccc !important;
+    border: 1px solid #444 !important;
+}
+span.file_browse{
+    text-decoration: none;
+    color: #990000;
+    border: 1px solid #990000;
+    font: normal small-caps bold 10pt Monospace;
+    padding: 0px 20px 0px 20px;
+
+}
+span.file_browse.uploading{
+    color: #ccc !important;
+    border: 1px solid #ccc !important;
+}
+span.file_browse.mouseover{
+    color: #009900 !important;
+    border: 1px solid #009900 !important;
+}
+
+a.upload_button, a.upload_button:visited{
+    text-decoration: none;
+    color: #990000;
+    border: 1px solid #990000;
+    font: normal small-caps bold 10pt Monospace;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+    line-height: 25px;
+    vertical-align: bottom;
+}
+a.upload_button:active, a.upload_button:hover{
+    color: #009900;
+    border: 1px solid #009900;
+    cursor: pointer;
+}
+a.upload_button.uploading, a.upload_button.uploading:visited{
+    color: #ccc !important;
+    border: 1px solid #ccc !important;
+    cursor: wait !important;
+
+}
+a.upload_button.uploading:active, a.upload_button.uploading:hover{
+    color: #ccc !important;
+    border: 1px solid #ccc !important;
+    cursor: wait !important;
+
+}
+span.loading_bar{
+    display:none;
+    visibility:hidden;
+}
+span.loading_bar.uploading{
+    display:block;
+    visibility:visible;
+    background: transparent url('/images/icons/loading_long.gif') center center no-repeat;
+    height: 18px;
+    margin-top:5px;
+}
+
+ul.upload_list{
+    display: none;
+    overflow: hidden;
+    list-style:none;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+/*li span.file_upload_error{
+    color: #990000;
+}
+h3.uploadTitle{color: #ff9206; display: block; text-align:right; font-size:1.2em;}
+li.file_loading{
+    background: transparent url('img/icons/loading_16x16.gif') top left no-repeat;
+    list-style-image:none;
+    list-style:none;
+    display: block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+    font-size: 1em;
+    color: #ff9206;
+    font-weight: bold;
+}
+li.file_failed{
+    background: transparent url('img/icons/failed_16x16.gif') top left no-repeat !important;
+}
+li.file_succeeded{
+    background: transparent url('img/icons/succeeded_16x16.gif') top left no-repeat !important;
+    color: #009900;
+}*/

@@ -1,0 +1,5 @@
+[30-Aug-2012 22:38:46] PHP Fatal error:  Call to undefined function  import() in /home1/voidcom1/public_html/classes/files/File.class.php on line 2
+[02-Mar-2013 07:20:57] PHP Fatal error:  Call to undefined function  import() in /home1/voidcom1/public_html/classes/files/File.class.php on line 2
+[02-Mar-2013 07:21:51] PHP Fatal error:  Call to undefined function  import() in /home1/voidcom1/public_html/classes/files/File.class.php on line 2
+[25-Oct-2013 15:32:16 America/Denver] PHP Fatal error:  Call to undefined function import() in /home1/voidcom1/public_html/classes/files/File.class.php on line 2
+[25-Oct-2013 15:33:23 America/Denver] PHP Fatal error:  Call to undefined function import() in /home1/voidcom1/public_html/classes/files/File.class.php on line 2

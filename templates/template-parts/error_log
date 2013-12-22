@@ -1,0 +1,35 @@
+[19-Sep-2012 00:17:28] PHP Fatal error:  Call to undefined function  rendertime() in /home1/voidcom1/public_html/templates/template-parts/footer.part.php on line 3
+[19-Sep-2012 18:16:56] PHP Fatal error:  Call to a member function getUri() on a non-object in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 3
+[20-Sep-2012 07:46:56] PHP Fatal error:  Call to undefined function  _a() in /home1/voidcom1/public_html/templates/template-parts/sidebar-login.part.php on line 37
+[02-Mar-2013 07:21:10] PHP Fatal error:  Call to undefined function  rendertime() in /home1/voidcom1/public_html/templates/template-parts/footer.part.php on line 3
+[02-Mar-2013 07:21:10] PHP Fatal error:  Call to undefined function  inblog() in /home1/voidcom1/public_html/templates/template-parts/links.part.php on line 2
+[02-Mar-2013 07:21:10] PHP Fatal error:  Call to undefined function  import() in /home1/voidcom1/public_html/templates/template-parts/googlecoderss.part.php on line 1
+[02-Mar-2013 07:21:10] PHP Fatal error:  Call to undefined function  _a() in /home1/voidcom1/public_html/templates/template-parts/sidebar-login.part.php on line 37
+[02-Mar-2013 07:21:10] PHP Fatal error:  Call to a member function getUri() on a non-object in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 3
+[02-Mar-2013 07:21:10] PHP Fatal error:  Call to undefined function  content() in /home1/voidcom1/public_html/templates/template-parts/meta.part.php on line 19
+[02-Mar-2013 07:21:59] PHP Fatal error:  Call to undefined function  rendertime() in /home1/voidcom1/public_html/templates/template-parts/footer.part.php on line 3
+[02-Mar-2013 07:21:59] PHP Fatal error:  Call to a member function getUri() on a non-object in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 3
+[02-Mar-2013 07:21:59] PHP Fatal error:  Call to undefined function  import() in /home1/voidcom1/public_html/templates/template-parts/googlecoderss.part.php on line 1
+[02-Mar-2013 07:21:59] PHP Fatal error:  Call to undefined function  inblog() in /home1/voidcom1/public_html/templates/template-parts/links.part.php on line 2
+[02-Mar-2013 07:21:59] PHP Fatal error:  Call to undefined function  content() in /home1/voidcom1/public_html/templates/template-parts/meta.part.php on line 19
+[02-Mar-2013 07:21:59] PHP Fatal error:  Call to undefined function  _a() in /home1/voidcom1/public_html/templates/template-parts/sidebar-login.part.php on line 37
+[25-Oct-2013 15:32:34 America/Denver] PHP Fatal error:  Call to undefined function renderTime() in /home1/voidcom1/public_html/templates/template-parts/footer.part.php on line 3
+[25-Oct-2013 15:32:34 America/Denver] PHP Fatal error:  Call to undefined function import() in /home1/voidcom1/public_html/templates/template-parts/googlecoderss.part.php on line 1
+[25-Oct-2013 15:32:34 America/Denver] PHP Notice:  Undefined index: uri in /home1/voidcom1/public_html/templates/template-parts/header-menu.part.php on line 3
+[25-Oct-2013 15:32:34 America/Denver] PHP Notice:  Undefined variable: current_user in /home1/voidcom1/public_html/templates/template-parts/header-menu.part.php on line 10
+[25-Oct-2013 15:32:34 America/Denver] PHP Notice:  Undefined index: DOMAIN in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 9
+[25-Oct-2013 15:32:34 America/Denver] PHP Notice:  Undefined index: CURRENT_PAGE in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 3
+[25-Oct-2013 15:32:34 America/Denver] PHP Fatal error:  Call to a member function getUri() on a non-object in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 3
+[25-Oct-2013 15:32:34 America/Denver] PHP Fatal error:  Call to undefined function inBlog() in /home1/voidcom1/public_html/templates/template-parts/links.part.php on line 2
+[25-Oct-2013 15:32:35 America/Denver] PHP Fatal error:  Call to undefined function content() in /home1/voidcom1/public_html/templates/template-parts/meta.part.php on line 19
+[25-Oct-2013 15:32:35 America/Denver] PHP Fatal error:  Call to undefined function _a() in /home1/voidcom1/public_html/templates/template-parts/sidebar-login.part.php on line 37
+[25-Oct-2013 15:33:28 America/Denver] PHP Fatal error:  Call to undefined function renderTime() in /home1/voidcom1/public_html/templates/template-parts/footer.part.php on line 3
+[25-Oct-2013 15:33:29 America/Denver] PHP Fatal error:  Call to undefined function import() in /home1/voidcom1/public_html/templates/template-parts/googlecoderss.part.php on line 1
+[25-Oct-2013 15:33:29 America/Denver] PHP Notice:  Undefined index: uri in /home1/voidcom1/public_html/templates/template-parts/header-menu.part.php on line 3
+[25-Oct-2013 15:33:29 America/Denver] PHP Notice:  Undefined variable: current_user in /home1/voidcom1/public_html/templates/template-parts/header-menu.part.php on line 10
+[25-Oct-2013 15:33:29 America/Denver] PHP Fatal error:  Call to undefined function content() in /home1/voidcom1/public_html/templates/template-parts/meta.part.php on line 19
+[25-Oct-2013 15:33:29 America/Denver] PHP Notice:  Undefined index: DOMAIN in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 9
+[25-Oct-2013 15:33:29 America/Denver] PHP Notice:  Undefined index: CURRENT_PAGE in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 3
+[25-Oct-2013 15:33:29 America/Denver] PHP Fatal error:  Call to a member function getUri() on a non-object in /home1/voidcom1/public_html/templates/template-parts/header.part.php on line 3
+[25-Oct-2013 15:33:29 America/Denver] PHP Fatal error:  Call to undefined function inBlog() in /home1/voidcom1/public_html/templates/template-parts/links.part.php on line 2
+[25-Oct-2013 15:33:29 America/Denver] PHP Fatal error:  Call to undefined function _a() in /home1/voidcom1/public_html/templates/template-parts/sidebar-login.part.php on line 37

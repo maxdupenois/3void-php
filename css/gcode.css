@@ -1,0 +1,30 @@
+/* 
+    Document   : gcode.css
+    Created on : 12-Nov-2010, 12:58:56
+    Author     : mpd209
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ul#gcode_list{
+   margin: 0px 0px 10px 0px;
+   padding: 0px;
+   height: 200px; 
+   overflow: auto;
+   border: 1px solid #ccc;
+}
+ul#gcode_list li{
+    list-style-type: none;
+    border-bottom: 1px dotted #ccc;
+}
+
+ul#gcode_list span.gcode_updated{
+    font: normal small-caps normal 8pt Monospace;
+    color: #666;
+    padding: 0px 5px;
+}

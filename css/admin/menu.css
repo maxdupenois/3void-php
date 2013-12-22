@@ -1,0 +1,40 @@
+/* CSS Document */
+ul.menu{
+	list-style-type: none;
+	margin: 0px 0px 0px 5px;
+	padding: 0px 0px 0px 0px;
+	text-transform:lowercase;
+	font-size: 12px;
+}
+ul.menu ul.menu{
+	font-size: 10px;
+}
+ul.menu a, ul.menu a:visited{
+	text-decoration:none;
+	color: #BB0000;
+}
+ul.menu a:hover, ul.menu a:active{
+	color: #00AA00;
+}
+ul.menu a.expander_collapsed, ul.menu a.expander_collapsed:visited{
+	background: transparent url(/images/admin/icons/expander_off_collapsed_8x8.png) no-repeat center center;
+	width: 8px;
+	height: 8px;
+	vertical-align:middle;
+	display:inline-block;
+	margin-bottom: 2px;
+}
+ul.menu a.expander_collapsed:hover, ul.menu a.expander_collapsed:active{
+	background: transparent url(/images/admin/icons/expander_on_collapsed_8x8.png) no-repeat center center;
+}
+
+ul.menu a.expander_expanded, ul.menu a.expander_expanded:visited{
+	background: transparent url(/images/admin/icons/expander_off_expanded_8x8.png) no-repeat center center;
+	display:inline-block;
+	width: 8px;
+	height: 8px;
+	vertical-align: middle;
+}
+ul.menu a.expander_expanded:hover, ul.menu a.expander_expanded:active{
+	background: transparent url(/images/admin/icons/expander_on_expanded_8x8.png) no-repeat center center;
+}

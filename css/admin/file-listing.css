@@ -1,0 +1,44 @@
+/* CSS Document */
+
+ul.file_listing{
+	list-style-type: none;
+	border: 1px solid #ccc;
+	margin: 5px 5px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	font-size: 12px;
+}
+ul.file_listing li{
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+
+a.view_file, a.view_file:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/view_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.view_file:hover, a.view_file:active{
+}
+a.edit_file, a.edit_file:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/page_meta_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.edit_file:hover, a.edit_file:active{
+}
+
+a.delete_file, a.delete_file:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/delete_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.delete_file:hover, a.delete_file:active{
+}

@@ -1,0 +1,55 @@
+/* CSS Document */
+
+#menu {
+	background: #fff;
+    padding-left:10px;
+}
+
+#menu ul {
+	font-weight: bold;
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 3px;
+	text-transform: lowercase;
+}
+
+#menu ul li {
+        color: #666;
+        font-weight: bold;
+	letter-spacing: 0.1em;
+	margin-top: 10px;
+	padding-bottom: 2px; /*border-bottom: dotted 1px #ccc;*/
+}
+
+#menu ul ul {
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.2em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#menu ul ul li {
+	border: 0;
+	letter-spacing: 0;
+	margin-top: 0;
+	padding: 0;
+	padding-left: 12px;
+}
+
+#menu ul ul li a {
+    font-weight: normal;
+}
+#menu ul ul li a.req_auth {
+    background: transparent url("http://3void.com/images/icons/locked-16x16.png") no-repeat  center right;
+    padding: 0px 18px 0px 0px;
+}
+#menu ul ul li a:hover {
+}
+
+#menu ul ul ul.children {
+	font-size: 100%;
+	padding-left: 4px;
+}

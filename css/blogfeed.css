@@ -1,0 +1,52 @@
+div.wordpress_item{
+    margin: 10px 60px 10px 40px;
+    background-color: #eee;
+}
+
+span.wordpress_pubdate{
+    color: #666;
+    font-size: 0.8em;
+}
+
+a.wordpress_title, a.wordpress_title:visited{
+    display: block;
+    text-transform: lowercase;
+	border-bottom: 1px dotted #ccc;
+    font-size: 1.2em;
+    padding: 0px 0px 0px 5px;
+	/*font-family: 'Courier New', Courier, monospace;*/
+	letter-spacing: 0.1em;
+	margin: 15px 0 2px 0;
+	padding-bottom: 2px;
+    color: #000;
+}
+
+a.wordpress_title:active, a.wordpress_title:hover{
+    color: #666;
+    background-color: #ccc;
+}
+p.postactions{
+
+    text-align: right;
+    text-indent: 0em;
+}
+p.postactions a, p.postactions a:hover, p.postactions a:active, p.postactions a.visited{
+    border: none !important;
+    text-decoration:none;
+}
+p.postactions a.rss_small {
+    background: transparent url('http://3void.com/images/icons/feed-icon-16x16.png') no-repeat center left;
+    padding: 0px 8px;
+    border: none;
+    text-decoration:none;
+}
+p.postactions a.trackback  {
+    background: transparent url('http://3void.com/images/icons/trackback-icon-16x16.png') no-repeat center left;
+    padding: 0px 8px;
+    border: none;
+}
+p.postactions a.tweet  {
+    background: transparent url('http://3void.com/images/icons/twitter-icon-16x16.png') no-repeat center left;
+    padding: 0px 8px;
+    border: none;
+}

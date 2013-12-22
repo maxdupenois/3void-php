@@ -1,0 +1,74 @@
+/* CSS Document */
+
+ul.page_listing{
+	list-style-type: none;
+	border: 1px solid #ccc;
+	margin: 5px 5px 0px 5px;
+	padding: 5px 0px 0px 5px;
+	font-size: 12px;
+}
+ul.page_listing li{
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+a.folder_expander_collapsed, a.folder_expander_collapsed:visited{
+	background: transparent url(/images/admin/icons/folder_expander_off_collapsed_16x16.png) no-repeat center center;
+	display:inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+a.folder_expander_collapsed:hover, a.folder_expander_collapsed:active{
+	background: transparent url(/images/admin/icons/folder_expander_on_collapsed_16x16.png) no-repeat center center;
+}
+
+a.folder_expander_expanded, a.folder_expander_expanded:visited{
+	background: transparent url(/images/admin/icons/folder_expander_off_expanded_16x16.png) no-repeat center center;
+	display:inline-block;
+	height: 16px;
+	width: 16px;
+}
+
+a.folder_expander_expanded:hover, a.folder_expander_expanded:active{
+	background: transparent url(/images/admin/icons/folder_expander_on_expanded_16x16.png) no-repeat center center;
+}
+
+
+a.view_page, a.view_page:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/view_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.view_page:hover, a.view_page:active{
+}
+a.edit_page, a.edit_page:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/page_meta_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.edit_page:hover, a.edit_page:active{
+}
+a.edit_page_content, a.edit_page_content:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/page_content_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.edit_page_content:hover, a.edit_page_content:active{
+}
+a.delete_page, a.delete_page:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/delete_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.delete_page:hover, a.delete_page:active{
+}

@@ -1,0 +1,11 @@
+div#twitter_div{
+    margin-top: 10px;
+    border: 1px dotted #000;
+    padding: 2px 2px 2px 2px;
+}
+div#twitter_div ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    list-style-type: none;
+}

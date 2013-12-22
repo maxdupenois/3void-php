@@ -1,0 +1,86 @@
+/* 
+    Document   : gcode.css
+    Created on : 12-Nov-2010, 12:58:56
+    Author     : mpd209
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+ul.papers_list{
+   margin: 0px;
+   padding: 0px;
+   border: 1px solid #ccc;
+}
+ul.papers_list ul.papers_list{
+   border: none !important;
+}
+ul.papers_list li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+}
+ul.papers_list li.papers_year{
+    margin: 5px !important;
+}
+ul.papers_list span.paper_year{
+    font: normal normal bold 10pt Monospace;
+}
+ul.papers_list span.paper_title{
+    font-style: italic;
+}
+ul.papers_list span.paper_authors{
+}
+ul.papers_list span.paper_conference{
+    font-size: 8pt;
+}
+ul.papers_list a, ul.papers_list a:visited{
+    font-family: Monospace;
+    text-transform: uppercase !important;
+    font-size: 1.1em;
+    color: #333;
+    border-bottom: 1px dashed #333;
+}
+ul.papers_list a:hover, ul.papers_list a:visited:active{
+    color: #666;
+    border-bottom: 1px dashed #666;
+}
+
+ul.doc_list{
+   margin: 0px;
+   padding: 0px;
+   border: 1px solid #ccc;
+}
+
+ul.doc_list li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+}
+ul.doc_list li.flagged{
+    list-style-image: url('/images/icons/flagged_8x8.png');
+    list-style-position:inside;
+    margin: 10px;
+    padding: 0px;
+}
+ul.doc_list span.doc_last_updated{
+    font: normal normal bold 8pt Monospace;
+}
+ul.doc_list span.doc_title{
+    font-style: italic;
+}
+ul.doc_list a, ul.doc_list a:visited{
+    font-family: Monospace;
+    text-transform: uppercase !important;
+    font-size: 1.1em;
+    color: #333;
+    border-bottom: 1px dashed #333;
+}
+ul.doc_list a:hover, ul.doc_list a:visited:active{
+    color: #666;
+    border-bottom: 1px dashed #666;
+}

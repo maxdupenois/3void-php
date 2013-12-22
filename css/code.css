@@ -1,0 +1,140 @@
+/* 
+    Document   : code
+    Created on : 05-Apr-2012, 12:25:13
+    Author     : mpd209
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+code {
+    padding: 5px;
+    font-size: 1.2em;
+    text-indent: 0em;
+    border: 1px solid #ccc;
+    overflow: auto;
+    white-space: nowrap;
+    width: 550px;
+    display:block;
+    margin: 0px auto;
+    background-color: #eee;
+
+}
+/*
+html = keywordSpan("class", "php_class", html);
+html = keywordSpan("return", "php_return", html);
+html = keywordSpan("public", "php_public", html);
+html = keywordSpan("private", "php_private", html);
+html = keywordSpan("protected", "php_protected", html);
+html = keywordSpan("function", "php_function", html);
+html = keywordSpan("static", "php_static", html);
+html = keywordSpan("switch", "php_switch", html);
+html = keywordSpan("case", "php_case", html);
+html = keywordSpan("break", "php_break", html);
+html = keywordSpan("default", "php_default", html);
+html = bigCommentSpan("\\/\\*", "\\*\\/", "php_bigcomment", html);
+html = lineCommentSpan("\\/\\/", "php_linecomment", html);
+html = singleQuotesSpan("php_singlequotes", html);
+html = doubleQuotesSpan("php_doublequotes", html);*/
+code span.php_class{
+    color: #009900;
+}
+code span.php_return{
+    color: #990000;
+}
+code span.php_public, code span.php_private, code span.php_protected{
+    color: #000099;
+}
+code span.php_function, code span.php_static{
+    color: #000099;
+}
+
+code span.php_switch, code span.php_case, code span.php_break, code span.php_default{
+    color: #000099;
+}
+code span.php_bigcomment, code span.php_linecomment{
+    color: #009900 !important;
+}
+code span.php_singlequotes, code span.php_doublequotes{
+    color: #FF8C00 !important;
+}
+code span.php_functionname{
+    color: #555;
+    font-weight: bold !important;
+}
+code span.php_variable{
+    color: #000;
+    font-weight: bold !important;
+}
+
+/*
+java_class
+java_return
+java_modifier
+java_super
+java_this
+java_package
+java_import
+java_switch
+java_primitive
+java_functionname
+java_doublequotes
+java_singlequotes
+java_bigcomment
+java_linecomment
+        */
+code span.java_class{
+    color: #000099;
+}
+code span.java_package, code span.java_import{
+    color: #000099;
+}
+code span.java_this, code span.java_super{
+    color: #000099 !important;
+    font-weight: bold;
+}
+code span.java_return{
+    color: #000099;
+}
+code span.java_modifier, code span.java_new, code span.java_throw{
+    color: #000099;
+}
+code span.java_if{
+    color: #000099;
+}
+code span.java_void, code span.java_static{
+    color: #000099;
+}
+code span.java_switch{
+    color: #000099;
+}
+code span.java_functionname{
+    color: #555;
+}
+code span.java_primitive{
+    color: #000099;
+}
+code span.java_bigcomment, code span.java_linecomment{
+    color: #009900  !important;
+}
+code span.java_bigcomment span, code span.java_linecomment span{
+    color: #009900  !important;
+}
+code span.java_singlequotes, code span.java_doublequotes{
+    color: #FF8C00 !important;
+}
+
+
+code.inline {
+    padding: 0px 2px;
+    font-size: 1.2em;
+    text-indent: 0em;
+    overflow: auto;
+    display:inline;
+    margin: 0px;
+    background-color: #eee;
+}

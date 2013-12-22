@@ -1,0 +1,69 @@
+/* CSS Document */
+table.item_listing{
+}
+table.item_listing td{
+	padding: 2px;
+}
+table.item_listing td.item_thumbnail{
+	border: 1px solid #ccc;
+}
+
+div.thumb_wrap{
+	height: 75px;
+	width: 75px;
+	vertical-align:middle;
+}
+
+a.item_link, a.edit_item:visited{
+	text-decoration: none;
+	color: #000099;
+	font-weight:bold;
+	font-size:12px;
+}
+a.item_link:hover, a.item_link:active{
+	color: #990000;
+}
+table.item_listing td.item_tags{
+	color: #999999;
+	font-weight:bold;
+	font-size:10px;
+}
+table.item_listing td.item_tags span.tag{
+	font-weight: normal;
+}
+a.edit_item, a.edit_item:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/page_meta_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.edit_item:hover, a.edit_page:active{
+}
+a.set_images, a.set_images:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/image_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.set_images:hover, a.set_images:active{
+}
+a.set_description, a.set_description:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/page_content_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.set_description:hover, a.set_description:active{
+}
+a.delete_item, a.delete_item:visited{
+	text-decoration: none;
+	display:inline-block;
+	background: transparent url(/images/admin/icons/delete_16x16.png) no-repeat center center;
+	width: 16px;
+	height: 16px;
+}
+a.delete_item:hover, a.delete_item:active{
+}

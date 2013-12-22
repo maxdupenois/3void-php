@@ -1,0 +1,21 @@
+/*.page_title_hr{
+	width: 75%;
+	float:right;
+	height: 0px;
+	border-top: 1px solid #737ddc;
+	border-right: 0px solid transparent;
+	border-bottom: 2px solid #EBEDF6;
+	border-left: 0px solid transparent;
+}
+*/
+.clear{
+	clear:both;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
